@@ -1,0 +1,33 @@
+{
+  "name": "s-cockpit",
+  "version": "0.0.0",
+  "description": "Manages all s-cockpit instances on a machine",
+  "main": "index.js",
+  "dependencies": {
+    "winston": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha --report html --dir ./report/coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schornio/s-cockpit.git"
+  },
+  "keywords": [
+    "log",
+    "monitor",
+    "cockpit",
+    "agent"
+  ],
+  "author": "Thomas Schorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schornio/s-cockpit/issues"
+  },
+  "homepage": "https://github.com/schornio/s-cockpit#readme"
+}
