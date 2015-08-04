@@ -1,0 +1,6 @@
+s-cockpit start
+
+  --socket    Path to UNIX-Socket
+
+  --host      s-cockpit Server host
+  --port      s-cockpit Server port
